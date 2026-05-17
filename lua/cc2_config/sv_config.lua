@@ -1,7 +1,0 @@
-GM.Config.Database = {
-	Host = "localhost",
-	Username = "root",
-	Password = "",
-	Database = "cc2-halo",
-	Port = 3306
-}
