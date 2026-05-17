@@ -38,6 +38,12 @@ if SERVER then
 			self:SendChat("NOTICE", "Your contributor status has ran out.")
 		end
 	end
+
+	hook.Add("PostLoadCharacter", "cc2.plugin.Donator", function(ply)
+		if ply.FirstLoad then
+			ply:CheckDonation()
+		end
+	end)
 end
 
 hook.Add("GetSandboxLimit", "plugin.Donator", function(ply, name)

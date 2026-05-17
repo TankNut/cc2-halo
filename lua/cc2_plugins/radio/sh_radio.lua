@@ -3,8 +3,6 @@ module("Radio", package.seeall)
 Presets = {}
 Groups = {}
 
-local PLAYER = FindMetaTable("Player")
-
 -- Called in content\defines\sh_defines.lua
 function AddPreset(group, name)
 	Groups[group] = true

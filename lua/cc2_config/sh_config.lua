@@ -1,5 +1,5 @@
 -- General config
-GM.Config.InternalName = "base" -- Used for figuring out what folder in data/cc2 we want to put our stuff into
+GM.Config.InternalName = "halo" -- Used for figuring out what folder in data/cc2 we want to put our stuff into
 GM.Config.ServerName = "CombineControl 2"
 
 GM.Config.CommunityLinks = {}
@@ -43,6 +43,8 @@ GM.Config.StashCooldown = util.Duration("15 min")
 GM.Config.StashRange = 128
 
 -- Characters
+GM.Config.DefaultFlag = "unsc"
+
 GM.Config.BaseModels = {
 	-- Male
 	Model("models/ishi/halo_rebirth/player/offduty/male/offduty_g_alfie.mdl"),
